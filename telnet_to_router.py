@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+
+import telnetlib
+import time
+
 #Open telnet connection to devices
 def open_telnet_conn(ip):
     #Change exception message
@@ -58,4 +63,5 @@ def open_telnet_conn(ip):
         print "Input parameter error! Please check username, password and file name."
 		
 #Calling the Telnet function
+ip = "192.168.2.101"
 open_telnet_conn(ip)
