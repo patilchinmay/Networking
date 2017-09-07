@@ -78,3 +78,13 @@ def open_ssh_conn(ip):
 #Calling the SSH function
 ip = "192.168.2.101"
 open_ssh_conn(ip)
+
+# Important Resources
+# On a linux machine:
+# https://stackoverflow.com/questions/20840012/ssh-remote-host-identification-has-changed
+# 'ssh username@host'
+
+# On Router:
+# '#sh ip ssh'
+# '#ip ssh version 2'
+# '#crypto key generate rsa' > 1024
